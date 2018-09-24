@@ -1,5 +1,5 @@
 body {
-  background-color: #fff;
+  background-color: #c8d6e5;
   color: #333;
   font-size: 14px;
   letter-spacing: 1px;
@@ -157,7 +157,7 @@ body {
   color: #227093;
 }
 
-.contactButton {
+.contactButton, .resume, .linkedin, .github {
   color: #fff;
   padding: 15px 20px;
   display: inline-block;
@@ -166,7 +166,7 @@ body {
   border-radius: 2px;
 }
 
-.contactButton:hover {
+.contactButton:hover, .resume:hover, .linkedin:hover, .github:hover {
   text-decoration: none;
   color: #227093;
   background-color: #fff;
@@ -178,10 +178,11 @@ body {
 }
 
 .filter a {
-  color: #bdc3c7;
-  border: 1px solid #bdc3c7;
+  color: #000;
+  border: 1px solid #000;
   padding: 10px 18px;
   display: block;
+  text-decoration: none;
 }
 
 .filter li {
@@ -207,10 +208,12 @@ body {
 }
 
 .itemsContainer {
+  height: 100%;
   width: 100%;
 }
 
 .items li img {
+  height: 100%;
   width: 100%;
 
   -webkit-transition: all 0.2s linear, 1s;

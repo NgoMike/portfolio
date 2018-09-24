@@ -10,7 +10,7 @@ $(document).ready(function() {
   });
 
   var typed = new Typed(".typed", {
-    strings: ["Software Engineer.", "Coffee Lover.", "Fitness Enthusiast."],
+    strings: ["Full Stack Software Engineer.", "Coffee Lover.", "Competitive Casual Gamer.", "Fitness Enthusiast."],
     typeSpeed: 70,
     loop: true,
     startDelay: 1000,
