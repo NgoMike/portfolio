@@ -22,7 +22,7 @@ $(document).ready(function() {
     items: 4,
     autoplay: true,
     autoplaySpeed: 2000,
-    autoplayTimeout: 4000,
+    autoplayTimeout: 3000,
     responsive: {
       0: {
         items: 1
